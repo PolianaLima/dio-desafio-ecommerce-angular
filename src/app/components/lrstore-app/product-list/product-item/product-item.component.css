@@ -3,7 +3,7 @@
 }
 
 .card {
-  border: 1px solid #ccc;
+  box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.2);
   margin: 5px;
   align-items: center;
   width: 100%;
@@ -12,3 +12,34 @@
 img {
   border: none;
 }
+
+.card-body-item{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  margin: 5px;
+  padding: 15px;
+  min-height: 250px;
+}
+
+.card-title-item{
+  color: #ccc;
+  margin-bottom: 10px;
+}
+
+.name-marca{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.btn-comprar{
+  border: solid 1px #ccc ;
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  color:#888 ;
+}
+
