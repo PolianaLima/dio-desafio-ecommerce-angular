@@ -1,0 +1,27 @@
+.d-flex{
+  background-color: #D2CCD1;
+  
+}
+.d-flex-nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+
+}
+
+.collapse{
+  background-color: #D2CCD1;
+}
+
+.navbar-nav{
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-item{
+  padding: 5px;
+  margin-left: 20px;
+}

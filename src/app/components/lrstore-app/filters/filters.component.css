@@ -1,0 +1,26 @@
+.filter-product{
+  display: flex;
+  border-radius: 5px;
+  border: 2px solid #ccc;
+
+
+}
+
+.filter{
+  width: 600px;
+  height: 50px;
+  padding: 10px;
+  background-color: #fff;
+  border:none;
+}
+
+#buscar{
+  background-image: url("../../../../assets/img/search-bbx.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1.3em;
+  padding-left: 4em;
+  border: none;
+  border-radius: 5px;
+
+}

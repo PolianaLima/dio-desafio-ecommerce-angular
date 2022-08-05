@@ -1,0 +1,10 @@
+.col{
+  width: 100%;
+}
+
+
+.row-itens{
+  display: flex;
+  width: 100%;
+
+}

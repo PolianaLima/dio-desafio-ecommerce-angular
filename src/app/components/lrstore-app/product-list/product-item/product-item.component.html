@@ -1,0 +1,11 @@
+
+<div  class="card" style="width: 20em;">
+  <img src={{product.img}}  class="img-thumbnail" width="200px" >
+  <div class="card-body">
+    <h5 class="card-title">{{product.name | uppercase}}</h5>
+    <p class="card-text">{{product.price | currency: "R$ "}}</p>
+    <p class="card-text">{{product.category |uppercase}}</p>
+    <p class="card-text">{{product.quantity}}</p>
+    <a href="#" class="btn btn-primary">Comprar</a>
+  </div>
+</div>
